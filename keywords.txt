@@ -1,0 +1,27 @@
+#################################
+############KEYWORD1#############
+#################################
+timers	KEYWORD1
+counts	KEYWORD1
+countdowns	KEYWORD1
+#################################
+############KEYWORD2#############
+#################################
+stop	KEYWORD2
+start	KEYWORD2
+setDel	KEYWORD2
+getDel	KEYWORD2
+getTick	KEYWORD2
+setMode	KEYWORD2
+setMax	KEYWORD2
+counted	KEYWOR2
+getCounter	KEYWORD2
+setCounter	KEYWORD2
+getOwerflow	KEYWORD2
+#################################
+############LITERAL1#############
+#################################
+TO_ZERO	LITERAL1
+BACK	LITERAL1
+COUNT_UP	LITERAL1
+COUNT_DOWN	LITERAL1
