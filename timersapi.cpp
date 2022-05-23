@@ -213,16 +213,19 @@ unsigned int countdowns::getDel()
 bool countdowns::counted()
 {
     countdowns::countedApi();
-    return is;
+    bool temp = is;
+    is = 0;
+    return temp;
 }
 //--------------------------------------------------------------------------------------------------------------------------------------//
 //-----------------------------------------------------------------api------------------------------------------------------------------//
 void countdowns::countedApi()
 {
     unsigned long time = millis();
-    if(time - tmr >= del){
-    is = 1;
-    countdowns::stop();
+    if(run && time - tmr >= del){
+      is = 1;
+      tmr = time;
+      countdowns::stop();
     }else{
       is = 0;
     }
