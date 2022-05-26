@@ -163,7 +163,7 @@ void counts::count()
     {
         counter = 0;
     }
-    if(dir == 1 && counter == 0 && ofmode == 1)
+    if(dir == 0 && counter == 0 && ofmode == 1)
     {
         dir = 1;
     }

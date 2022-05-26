@@ -17,11 +17,11 @@ setMax	KEYWORD2
 counted	KEYWOR2
 getCounter	KEYWORD2
 setCounter	KEYWORD2
-getOwerflow	KEYWORD2
+getOverflow	KEYWORD2
 #################################
 ############LITERAL1#############
 #################################
 TO_ZERO	LITERAL1
 BACK	LITERAL1
-COUNT_UP	LITERAL1
-COUNT_DOWN	LITERAL1
+UP_COUNT	LITERAL1
+DOWN_COUNT	LITERAL1
