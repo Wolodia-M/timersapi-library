@@ -1,8 +1,9 @@
-#include "timersapi.hpp"  //inluding library
+#include "timersapi.hpp"  // Including library
 
 /*
     All functions
   Explain all functions of  the library
+  This can have some errors on compilations and really does nothing, this is simple API showwcase
     Components
   Arduino compatible boards;
   
